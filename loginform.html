@@ -1,0 +1,39 @@
+<html>
+<head>
+
+</head>
+<body>
+<script>
+    const correctusername = "adminlb";
+    const correctpassword = "password321";
+
+    let username,password;
+    let loggedin = false;
+    let login_attempt=0;
+    let max_attempts=3;
+
+    do{
+        username = prompt("enter your name");
+        password = prompt("enter your password");
+
+        if(username==correctusername && password==correctpassword){
+            loggedin=true;
+            alert("login sucessfull");
+        }
+        else{
+            alert("invalid login");
+        }
+        login_attempt++;
+        if(login_attempt == max_attempts){
+            alert("you have reached max attempts.pls try after 24 hours");
+            break;
+        }
+       
+    }
+    while(!loggedin);
+
+</script>
+
+</body>
+
+</html>
