@@ -12,6 +12,6 @@ function printfib(n) {
     }
 }
 
-printfib(5);
+printfib(7);
 
 
