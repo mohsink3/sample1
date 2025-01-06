@@ -3,5 +3,5 @@ let sum =numbers.reduce((num,tot)=>num +tot);
 console.log(sum);
 let product = numbers.reduce((n,mult)=>n*mult);
 console.log(product);
-let concat1 = numbers.reduce((n1,n2)=> `${n1}-${n2}`);
-console.log(concat1);
+let concat = numbers.reduce((n1,n2)=> `${n1}-${n2}`);
+console.log(concat);
