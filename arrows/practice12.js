@@ -5,4 +5,4 @@ function printpattern(patternchar,numlines){
         console.log(pattern);
     }
 }
-printpattern('*',5);
+printpattern('*',6);
