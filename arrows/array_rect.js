@@ -23,7 +23,7 @@ class Rectangle {
 
   const rectangles = [];
   rectangles.push(rectangle1,rectangle2,rectangle3);
-  printrectangle(rectangles);
+ 
   function printrectangle(rectangles){
     for(const rectangle of rectangles){
         console.log(`length-${rectangle.length}`);
@@ -33,3 +33,4 @@ class Rectangle {
         console.log(`-----------------\n`);
     }
   }
+  printrectangle(rectangles);
