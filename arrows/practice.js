@@ -1,9 +1,5 @@
-
-let n= 17;
-let remainder = n%2;
-if(remainder==0){
-    console.log("even number");
+function printcode(code) {
+    console.log("".concat(code));
 }
-else{
-    console.log("odd numb");
-}
+printcode(404);
+printcode("404");
